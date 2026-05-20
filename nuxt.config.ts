@@ -3,9 +3,12 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   modules: ['@pinia/nuxt'],
+  devServer: {
+    port: 3001
+  },
   runtimeConfig: {
     public: {
-      apiBaseUrl: 'http://localhost:3001'
+      apiBaseUrl: 'http://localhost:3000'
     }
   }
 })
