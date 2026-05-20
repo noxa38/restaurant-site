@@ -49,9 +49,3 @@ export interface Reservation {
     phone: string
   }
 }
-
-export interface ApiError {
-  statusCode: number
-  message: string
-  field?: string
-}

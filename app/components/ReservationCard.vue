@@ -12,6 +12,10 @@
         <span>{{ reservation.customer.email }}</span>
       </div>
       <div class="info-item">
+        <span class="label">Téléphone</span>
+        <span>{{ reservation.customer.phone }}</span>
+      </div>
+      <div class="info-item">
         <span class="label">Restaurant</span>
         <span>{{ reservation.restaurant.name }}</span>
       </div>
